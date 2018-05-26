@@ -35,18 +35,18 @@ public class UC06CadastrarLivroGUI {
 	}
 
 	@Test
-	public void testUC01CadastrarEmpresaGUI() throws Exception {
+	public void testUC01CadastrarLivroGUI() throws Exception {
+		//cenario
 		driver.get(baseUrl + "ControleDeEmprestimo/Home.html");
 		driver.findElement(By.linkText("Manter Cadastro de Livros")).click();
-		
 		driver.findElement(By.id("txttitulo")).clear(); //ou By.name
 		driver.findElement(By.id("txttitulo")).sendKeys("Introdução ao teste de software");
 		driver.findElement(By.id("txtisbn")).clear();
 		driver.findElement(By.id("txtisbn")).sendKeys("1111");
 		driver.findElement(By.id("txtautor")).clear();
 		driver.findElement(By.id("txtautor")).sendKeys("Delamaro");
-		
-		driver.findElement(By.id("botao")).click();
+		//acao
+		driver.findElement(By.name("btnIncluir")).click();//id do botao esta associado ao estilo css
 		try {
 			WebDriverWait wait = new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("mensagem")));
