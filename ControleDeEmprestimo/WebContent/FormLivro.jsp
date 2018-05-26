@@ -40,17 +40,17 @@
 				<table id="tabcampos">
 					<tr>
 						<td><label> Titulo:</label></td>
-						<td><input id="campo" size="70" type="text" name="txtTitulo"
+						<td><input id="txttitulo" size="70" type="text" name="txtTitulo"
 							value=""></td>
 					</tr>
 					<tr>
 						<td><label> ISBN:</label></td>
-						<td><input id="campo" size="15" type="text" name="txtISBN"
+						<td><input id="txtisbn" size="15" type="text" name="txtISBN"
 							value=""></td>
 					</tr>
 					<tr>
 						<td><label> Autor:</label></td>
-						<td><input id="campo" size="70" type="text" name="txtAutor"
+						<td><input id="txtautor" size="70" type="text" name="txtAutor"
 							value=""></td>
 					</tr>
 					
