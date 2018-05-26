@@ -35,7 +35,7 @@ public class UC06CadastrarLivroGUI {
 	}
 
 	@Test
-	public void testUC01CadastrarLivroGUI() throws Exception {
+	public void CT01CadastrarLivroComSucessoPelaGUI() throws Exception {
 		//cenario
 		driver.get(baseUrl + "ControleDeEmprestimo/Home.html");
 		driver.findElement(By.linkText("Manter Cadastro de Livros")).click();
