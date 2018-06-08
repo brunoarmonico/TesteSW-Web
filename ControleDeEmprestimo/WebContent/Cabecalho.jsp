@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div id= "titulo">
-		<a href="Index.jsp"><img alt="Centro Paula Souza" src="/ControleDeEmprestimo/Imagens/saojudaslogotipo.png"></a>
+		<a href="Index.jsp"><img alt="Centro Paula Souza" src="/ControleDeEmprestimo/Imagens/centropaulasouza.png"></a>
 		<h3>Curso de Análise e Desenvolvimento de Sistemas</h3>
 	</div>
 </body>
