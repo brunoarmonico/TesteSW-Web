@@ -10,9 +10,9 @@ import com.mysql.jdbc.exceptions.jdbc4.CommunicationsException;
 
 public class FabricaDeConexoes {
 	Logger logger = Logger.getLogger(FabricaDeConexoes.class);
-	String url = "jdbc:mysql://mysql8.db4free.net:3306/sceweb";
+	String url = "jdbc:mysql://localhost:3306/biblioteca";
 	String driver = "com.mysql.jdbc.Driver";
-	String usuario = "alunos";
+	String usuario = "root";
 	String senha = "alunosfatec";
 	
 	public FabricaDeConexoes (ConfiguraDB configura){

@@ -98,9 +98,9 @@ public class UC01RegistraEmprestimoDeLivro {
 	@Test
 	public void CT05_conecta_db_com_sucesso() {
 		// cenario
-		String url = "jdbc:mysql://mysql8.db4free.net:3306/sceweb";
+		String url = "jdbc:mysql://localhost:3306/biblioteca";
 		String driver = "com.mysql.jdbc.Driver";
-		String usuario = "alunos";
+		String usuario = "root";
 		String senha = "alunosfatec";
 		// acao
 		ConfiguraDB configuraDB = new ConfiguraDB(url, driver, usuario, senha);

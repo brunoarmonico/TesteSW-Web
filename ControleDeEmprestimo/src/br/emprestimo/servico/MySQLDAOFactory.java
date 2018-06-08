@@ -12,9 +12,9 @@ import br.emprestimo.modelo.UsuarioDAO;
 
 public class MySQLDAOFactory extends DAOFactory {
 	static Logger logger = Logger.getLogger(MySQLDAOFactory.class);
-	static String url = "jdbc:mysql://mysql8.db4free.net:3306/sceweb";
+	static String url = "jdbc:mysql://localhost:3306/biblioteca";
 	static String driver = "com.mysql.jdbc.Driver";
-	static String usuario = "alunos";
+	static String usuario = "root";
 	static String senha = "alunosfatec";
 	
 	// method to create Cloudscape connections
